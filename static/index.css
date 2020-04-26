@@ -1,0 +1,53 @@
+body{
+    width: 30rem;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.comments_container{
+    margin-top: 2.5rem;
+}
+.comments{
+    margin-bottom: 1rem;
+    background: #efefef;
+    padding: 1rem 1.5rem;
+    border-left: 5px solid #0052fa;
+}
+
+
+.comments strong{
+    font-size: .75rem;
+}
+
+.comments p{
+    margin: .5rem 0;
+}
+
+textarea{
+    height: 6rem; 
+    width: 100%;
+}
+
+button{
+    margin-top: .5rem;
+    background-color: #0052fa;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: .8rem;
+    padding: 1rem;
+    padding-right: 4rem;
+    font-weight: 300;
+    letter-spacing: .2px;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header a{
+    margin-left: auto;
+}
+
